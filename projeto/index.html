@@ -137,16 +137,27 @@
 <script>
     $("#button2").on('click',function() {
         $(".informacao-Entradas").show(),
-        $("")    
+        $(".iformacao-Pratos-principais").hide(),
+        $(".informacao-Sobremesas").hide(),
+        $(".informacao-Bebidas").hide()    
     })
     $("#button3").on('clik',function() {
         $(".informacao-Pratos-principais").show()
+        $(".informacao-Entradas").hide(),
+        $(".informacao-Sobremesas").hide(),
+        $(".informacao-Bebidas").hide()
     })
     $("#button4").on('click', function() {
-        $(".infomacao-Sobremesas").show()
+        $(".infomacao-Sobremesas").show(),
+        $(".informacao-Pratos-principais").hide(),
+        $(".informacao-Entradas").hide(),
+        $(".informacao-Bebidas").hide()
     })
     $("#button5").on('click', function() {
          $(".informacao-Bebidas").show()
+         $(".informacao-Pratos-principais").hide(),
+         $(".informacao-Entradas").hide(),
+         $(".informacao-Sobremesas").hide(),
     })
     </script>
 </html>
